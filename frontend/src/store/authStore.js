@@ -3,7 +3,7 @@ import axios from 'axios'
 
 
 // const API_URL = "http://localhost:5055/api/auth"
-const API_URL = "https://mern-auth-basis.onrender.com/"
+const API_URL = "https://mern-auth-basis.onrender.com/api/auth"
 
 axios.defaults.withCredentials = true
 
