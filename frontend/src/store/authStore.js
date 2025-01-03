@@ -2,7 +2,8 @@ import { create } from 'zustand'
 import axios from 'axios'
 
 
-const API_URL = import.meta.env.Mode === "development" ? "http://localhost:5055/api/auth" : "/api/auth"
+// const API_URL = "http://localhost:5055/api/auth"
+const API_URL = "https://mern-auth-basis.onrender.com/"
 
 axios.defaults.withCredentials = true
 
